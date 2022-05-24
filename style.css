@@ -1,0 +1,86 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.pink-color{
+   color: deeppink; 
+   font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    padding-left: 5%;
+    margin-left: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%;
+    margin-top: 25px;
+}
+.second-section img{
+    box-shadow: 20px 10px 45px deeppink;
+    border-radius: 30px;
+}
+.first-section{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+section{
+    height: 600px;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(20deg, MediumVioletRed, deeppink);
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+.second-section{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.p-width{
+    width: 26%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 5%;
+}
+.p-width img{
+    width: 100%;
+    padding-top: 17px;
+}
+.third-section{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.h2{
+    font-weight: 700;
+    padding-top: 8px;
+    text-align: center;
+}
+.last-section{
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.email{
+    color:white;
+    background-image: linear-gradient(20deg, mediumvioletred, deeppink);
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 18px;
+    border-radius: 15px;
+    margin-top: 90px;
+}
+footer{
+    font-size: 14px;
+    margin-top: 100px;
+}
